@@ -1,0 +1,8 @@
+#wsl中Ubuntu环境配置
+sudo apt update # 更新包管理器
+code . #安装 VS Code Server for Linux x64 
+#vscode中安装c/c++和wsl插件
+git config --global user.name "halaxy"
+git config --global user.email "2966011847@qq.com" #设置git基础信息
+ssh-keygen -t rsa -b 4096 -C "2966011847@qq.com" #配置密钥用ssh链接github
+ssh -T git@github.com #检测链接
